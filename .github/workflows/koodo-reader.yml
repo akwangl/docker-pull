@@ -9,6 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: koodo-reader/koodo-reader@master
+      - run: git clone -b master https://github.com/koodo-reader/koodo-reader.git
+      - run: cd koodo-reader
       - run: docker-compose up -d
 
