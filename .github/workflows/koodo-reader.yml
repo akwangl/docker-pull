@@ -1,0 +1,13 @@
+
+name: CI
+
+on:
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: koodo-reader/koodo-reader@master
+      - run: docker-compose up -d
+
