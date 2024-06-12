@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: git clone -b master https://github.com/koodo-reader/koodo-reader.git
-      - run: cd koodo-reader && docker-compose up -
+      - run: cd koodo-reader && docker-compose up -d
 
