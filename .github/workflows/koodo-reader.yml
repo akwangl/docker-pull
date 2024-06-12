@@ -11,5 +11,5 @@ jobs:
     steps:
       - run: git clone -b master https://github.com/koodo-reader/koodo-reader.git
       - run: cd koodo-reader
-      - run: docker-compose up -d
+      - run: docker-compose up -f ./docker-compose.yml -d
 
