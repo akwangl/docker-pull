@@ -1,5 +1,5 @@
 
-name: CI
+name: koodo-reader-docker镜像打包
 
 on:
   workflow_dispatch:
